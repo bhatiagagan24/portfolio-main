@@ -28,7 +28,7 @@ $: setInterval(changeColor, 1500);
 </style>
 
 <main>
-    
+   
 <br>
 <!-- flexbox-centered
 items-center -->
@@ -75,5 +75,4 @@ items-center -->
 <div>
     <Projects />
 </div>
-
 </main>

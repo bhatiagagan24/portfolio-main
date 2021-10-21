@@ -1,10 +1,11 @@
 <script>
     import Nav from "../components/nav.svelte";
-    import Footer from "../components/footer.svelte";
+    import Header from "../components/header.svelte";
+
 </script>
 
 <!-- <Nav /> -->
-<Footer />
+<Header />
  <slot></slot>
 
 
