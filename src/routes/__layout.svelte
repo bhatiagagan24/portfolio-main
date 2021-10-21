@@ -3,9 +3,10 @@
     import Footer from "../components/footer.svelte";
 </script>
 
-<Nav />
- <slot></slot>
+<!-- <Nav /> -->
 <Footer />
+ <slot></slot>
+
 
 <style>
 @tailwind base;
