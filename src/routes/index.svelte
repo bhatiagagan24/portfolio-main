@@ -74,5 +74,7 @@ items-center -->
 </div>
 <div>
     <Projects />
+    
 </div>
+<p></p>
 </main>
