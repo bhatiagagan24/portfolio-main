@@ -5,7 +5,7 @@
 </script>
 
 <!-- <Nav /> -->
-<Header />
+<!-- <Header /> -->
  <slot></slot>
 
 

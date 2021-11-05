@@ -26,7 +26,7 @@ button {
 
 
 <br>
-<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:blanchedalmond">
+<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:#DBFFFC">
     <strong>Projects</strong>
 </div>
 

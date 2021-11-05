@@ -35,26 +35,28 @@
     }
 </style>
 
-<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:blanchedalmond">
+<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:#DBFFFC">
     <strong>Skills</strong>
 </div>
 
 
-<div class="py-2 md:py-4 grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-xl md:text-3xl text-center ">
+<div class="py-2 md:py-4 grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-md md:text-xl text-center ">
 {#each skill_list as skill, i}
-<span class="flex flex-col" style="color: slateblue; backround-color: azure; margin-left:1em; margin-right: 1em">
+<span class="flex flex-col" style="color: black; backround-color: azure; margin-left:1em; margin-right: 1em">
     {#if more_skills_button_clicked === 0}
     {#if i < 4}
-    <span class="border-4">
+    <span class="border-4 hover:bg-gray-400 hover:text-white">
+        <!-- <span class="hover:text-white"> -->
     {skill_list[i]}
+<!-- </span> -->
     </span>
     {:else if i >= 4}
-    <span class="hidden md:flex flex-col border-4">
+    <span class="hidden md:flex flex-col border-4 hover:bg-gray-400 hover:text-white">
         {skill_list[i]}
     </span>
     {/if}
     {:else}
-    <span class="flex flex-col border-4">
+    <span class="flex flex-col border-4 hover:bg-gray-400 hover:text-white">
         {skill_list[i]}
     </span>
     {/if}

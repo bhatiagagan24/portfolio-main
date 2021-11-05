@@ -4,7 +4,7 @@ import Social from "../components/social.svelte";
 import Skills from "../components/skillscroll.svelte";
 import Projects from "../components/projects.svelte";
 
-let nameColor = "green";
+let nameColor = "purple";
 
 
 
@@ -16,7 +16,7 @@ function changeColor() {
     }
 }
 
-$: setInterval(changeColor, 1500);
+// $: setInterval(changeColor, 1500);
 
 
 </script>
@@ -32,13 +32,13 @@ $: setInterval(changeColor, 1500);
 <br>
 <!-- flexbox-centered
 items-center -->
-<div class=" uppercase align-middle text-xl lg:text-5xl md:text-3xl flex  flex-col justify-center text-left divone sm:margin-top=0vh">
-    <span class="flex flex-col flexbox-centered"> Hey, I am </span> 
-    <strong><span style="color: {nameColor}" class="text-5xl lg:text-9xl items-center"> Gagandeep <span> Bhatia ! </span></span></strong>
+<div class="pt-10 uppercase align-middle text-md lg:text-2xl md:text-3xl flex  flex-col justify-center text-left divone sm:margin-top=0vh">
+    <span class=" pl-5 flex flex-col flexbox-centered"> Hey, I am </span> 
+    <strong><span style="color: {nameColor}" class=" pl-5 text-lg lg:text-3xl items-center"> Gagandeep <span> Bhatia </span></span></strong>
     
-    <p class="text-sm lg:text-4xl" style="margin-left: 1%">
+    <p class=" text-sm lg:text-2xl">
         <br>
-    <i>Always Learning | Software Developer</i>
+    <i class="pl-5">Always Learning | Software Developer</i>
     </p>
 
     <!-- <div class=" flex flexbox-centered items-center flex-row justify-center text-center align-middle text-xl divone">
