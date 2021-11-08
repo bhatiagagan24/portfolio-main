@@ -21,7 +21,9 @@ function changeColor() {
 
 </script>
 
-
+<svelte:head>
+    <title>Portfolio</title>
+</svelte:head>
 
 <style>
 

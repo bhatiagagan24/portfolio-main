@@ -8,8 +8,8 @@
 </style>
 
 
-<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:#DBFFFC">
-<strong>Connect</strong>
+<div class="flex flex-row align-middle justify-center text-center text-sm md:text-md" style="color: black; background-color:#DBFFFC">
+<strong><em>Connect</em></strong>
 </div>
 <!-- width="16" height="16" -->
 <div class="flex flex-row content-center align-middle justify-center text-center classicons">

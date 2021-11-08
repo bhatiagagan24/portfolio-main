@@ -34,11 +34,9 @@
         border-color: black;
     }
 </style>
-
-<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:#DBFFFC">
-    <strong>Skills</strong>
+<div class="flex flex-row align-middle justify-center text-center text-sm md:text-md" style="color: black; background-color:#DBFFFC">
+    <strong><em>Skills</em></strong>
 </div>
-
 
 <div class="py-2 md:py-4 grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-md md:text-xl text-center ">
 {#each skill_list as skill, i}

@@ -26,8 +26,8 @@ button {
 
 
 <br>
-<div class="flex flex-row align-middle justify-center text-center" style="color: black; background-color:#DBFFFC">
-    <strong>Projects</strong>
+<div class="flex flex-row align-middle justify-center text-center text-sm md:text-md" style="color: black; background-color:#DBFFFC">
+    <em><strong>Projects</strong></em>
 </div>
 
 <div class="py-2 md:py-4 grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-xl md:text-3xl text-center" style="margin-left: 1%; margin-right: 1%">
@@ -35,7 +35,7 @@ button {
     <span class="flex flex-col project-card border-4  text-sm md:text-sm" style="color:black; border-color: black; border-width: 0.01em;">
         {#if view_more_projects === 0}
         {#if i < 3}
-        <span class="text-sm md:text-xl bg-gray-400 text-white">{project[0]} </span>
+        <span class="text-sm md:text-lg bg-gray-400 text-white">{project[0]} </span>
         <span class="flex flex-col text-sm md:text-lg bg-red">
             <hr>
             <em>{project[1]} </em>
@@ -53,7 +53,7 @@ button {
         </span>
         {:else if i >= 3}
         <span class="hidden md:flex flex-col">
-            <span class="text-sm md:text-xl bg-gray-400 text-white">{project[0]} </span>
+            <span class="text-sm md:text-lg bg-gray-400 text-white">{project[0]} </span>
         <span class="flex flex-col text-sm md:text-lg " >
             <hr>
             <em>{project[1]} </em>
@@ -73,7 +73,7 @@ button {
         {/if}
         {:else}
         <span class="flex flex-col" style="color:black; border-color: black; border-width: 0.01em;">
-            <span class="text-sm md:text-xl text-white bg-gray-400">{project[0]} </span>
+            <span class="text-sm md:text-lg text-white bg-gray-400">{project[0]} </span>
         <span class="flex flex-col text-sm md:text-lg">
             <hr>
             <em>{project[1]} </em>

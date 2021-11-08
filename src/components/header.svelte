@@ -4,19 +4,19 @@
     div {
         /* color: tomato; */
         /* color: purple; */
-        color: white;
+        color: purple;
         /* background-color: mistyrose; */
-        background-color: black;
-        position: fixed;
+        background-color: bisque;
+        /* position: fixed; */
         width: 100%;
     }
 </style>
 
-<div class="flex justify-center text-xs  md:text-lg">
-
-    <h3>Made by Gagandeep Bhatia using a computer :P </h3>
+<div class="flex flex-row justify-center text-xs mt-2 md:mt-2 md:text-lg">
+    <h3><em>Made by Gagandeep Bhatia using SvelteKit </em> </h3>
     <hr> <br>
 </div>
+<div class="mt-3"></div>
 
 <!-- <div class="flex justify-center">
 

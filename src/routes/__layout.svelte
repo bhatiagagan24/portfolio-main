@@ -7,7 +7,7 @@
 <!-- <Nav /> -->
 <!-- <Header /> -->
  <slot></slot>
-
+<Header></Header>
 
 <style>
 @tailwind base;
