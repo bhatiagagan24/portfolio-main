@@ -40,7 +40,7 @@ items-center -->
     
     <p class=" text-sm lg:text-2xl">
         <br>
-    <i class="pl-5">Always Learning | Software Developer</i>
+    <i class="pl-5">Always Learning | Software Engineer</i>
     </p>
 
     <!-- <div class=" flex flexbox-centered items-center flex-row justify-center text-center align-middle text-xl divone">
